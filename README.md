@@ -18,4 +18,9 @@ Example usage:
 # now in ~/src/foobar
 ~/src/foobar$ 
 ```
+## `wt` - cd to another git worktree
 
+Invoking completion on `wt` with no arguments will show name and branch info
+about all worktrees associated with the current git repository. Otherwise it
+functions much like `cdhelper` defined functions above, e.g. to quickly cd into
+a subdirectory of another worktree.
